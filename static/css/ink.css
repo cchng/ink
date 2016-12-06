@@ -1,0 +1,18 @@
+footer {
+  background: #FFFFFF;
+  height: 70px;
+  width: 930px;
+  bottom: 0;
+  position: fixed;
+  float: left;
+  #margin: 20px auto 20px auto;
+  padding: 30px 0 0 0;
+  #border-radius: 7px 7px 7px 7px;
+  #-moz-border-radius: 7px 7px 7px 7px;
+  #-webkit-border: 7px 7px 7px 7px;
+  font: 90% 'News Cycle', arial, sans-serif;
+  text-align: left;}
+
+footer p {
+       padding: 0px 0 0 20px;
+}

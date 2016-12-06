@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <div class="container">
+    <h1> Markers</h1>
+<p>Check markers that are present/positive in your sample:</p>
+{% for marker in markers %}
+<div class="checkbox">
+  <label><input type="checkbox" value="" id="{{ marker }}">{{ marker }}</label>
+</div>
+{% endfor %}
+
+    <p>
+<button class="btn btn-primary btn-lg" role="button"
+	       onclick="reset()">RESET</button>
+      <button class="btn btn-primary btn-lg" role="button"
+	       onclick="getResults()">SUBMIT</button></p>
+
+    <h1> Result </h1>
+    <div id="result">
+      ...
+      </div>
+  </div>
+
+
+{% endblock body %}

@@ -1,0 +1,8 @@
+function getResults(){
+    document.getElementById("result") = "I don't know"
+}
+
+function reset(){
+   document.getElementById("result") = ""
+
+}
