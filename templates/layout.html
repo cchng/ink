@@ -52,7 +52,7 @@
                         <a href="{{ url_for('about') }}">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="{{ url_for('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,8 +68,9 @@
 {% endblock %}
 </body>
 
-{% block footer %}   
+{# {% block footer %}   
 
 <footer><p><a href="http://cchng.github.io">cchng.github.io</a></p></footer>
 
-{% endblock footer %}
+{% endblock footer %} 
+ #}
